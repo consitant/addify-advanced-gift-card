@@ -1,0 +1,1001 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Gift Card\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-02 13:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: addify_gift_cards"
+
+#: front/class-af-gift-card-front.php:645
+msgid " - - "
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:109
+msgid " Available Balance "
+msgstr ""
+
+#: admin/includes/templates/afgc-pdf-template.php:314
+msgid " Gift Card Code"
+msgstr ""
+
+#: admin/class-af-gift-card-admin.php:481
+msgid " Price : "
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:239
+msgid "\"Email\" checkbox label"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:261
+msgid "\"Print At Home\" checkbox label"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:871
+msgid "- -"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:156
+msgid "[afgc-gift-cards]"
+msgstr ""
+
+#: addify-gift-card.php:336
+msgid "A link to a Gift Card Gallery category."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:313
+#: admin/includes/templates/afgc-gift-card-product-temp.php:361
+msgid "Add another recipient"
+msgstr ""
+
+#: addify-gift-card.php:606
+msgid "Add image"
+msgstr ""
+
+#: addify-gift-card.php:488
+msgid "Add images"
+msgstr ""
+
+#: addify-gift-card.php:332
+msgid "Add new Gallery"
+msgstr ""
+
+#: addify-gift-card.php:280 addify-gift-card.php:281
+msgid "Add New Gift Card"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:131
+msgid "Add prefix here."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:567
+msgid "Add text here."
+msgstr ""
+
+#. Author of the plugin
+msgid "Addify"
+msgstr ""
+
+#: front/includes/emails/class-af-gift-card-mail.php:50
+msgid "Addify Gift Card Recipient Email"
+msgstr ""
+
+#: addify-gift-card.php:325
+msgctxt "Admin menu name"
+msgid "Gift Card Gallery"
+msgstr ""
+
+#. Name of the plugin
+msgid "Advanced Gift Card"
+msgstr ""
+
+#: addify-gift-card.php:73
+msgid ""
+"Advanced Gift Card plugin is inactive. WooCommerce plugin must be active in "
+"order to activate it."
+msgstr ""
+
+#: addify-gift-card.php:327
+msgid "All Gallery"
+msgstr ""
+
+#: addify-gift-card.php:983
+msgid "Allow custom amount"
+msgstr ""
+
+#: addify-gift-card.php:963
+msgid "Allow custom Image"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:432
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:433
+msgid "Allow customers to add a message to the gift card"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Allow your customers to purchase gift cards for their loved ones for "
+"multiple occasions like birthday, wedding, anniversaries, etc."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:410
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:411
+msgid "Ask sender & recipient name"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:60
+msgid "Background"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:87
+msgid "Background on hover"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:719
+msgid "Balance"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:900
+msgid "Balance: "
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:69
+msgid "Border"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:96
+msgid "Border on hover"
+msgstr ""
+
+#: addify-gift-card.php:1110
+#: front/includes/templates/afgc-gift-card-taxonomies-modal.php:23
+msgid "Categories"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:300
+msgid "Check to enable another recipient option."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:351
+msgid "Check to enable sender section."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:257
+msgid "Check to make the email checkbox mandatory"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:334
+msgid "Check to make the email field mandatory"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:326
+msgid "Check to make the full name field mandatory"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:377
+msgid "Check to make the message field mandatory"
+msgstr ""
+
+#: addify-gift-card.php:518 addify-gift-card.php:626
+msgid "Choose an image"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:272
+msgid "Code"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:119
+msgid "Coupon"
+msgstr ""
+
+#: front/includes/emails/html/afgc-coupon-code-html.php:121
+msgid "Coupon Amount"
+msgstr ""
+
+#: front/includes/emails/html/afgc-coupon-code-html.php:110
+msgid "Coupon Code"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:525
+msgid "Coupon code"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:268
+msgid "Coupon Log"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:126
+msgid "Coupon prefix"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:461
+msgid "Custom Amount"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:51
+msgid "Customize default theme"
+msgstr ""
+
+#: admin/class-af-gift-card-admin.php:205
+#: admin/includes/templates/afgc-dashboard-temp.php:270
+msgid "Dashboard"
+msgstr ""
+
+#: addify-gift-card.php:1044
+msgid "Days when this gift card will expire."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:231
+#: admin/includes/templates/afgc-gift-card-product-temp.php:277
+msgid "Delivery"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:450
+#: front/class-af-gift-card-front.php:471
+msgid "Delivery Date"
+msgstr ""
+
+#: addify-gift-card.php:419 admin/class-af-gift-card-admin.php:475
+msgid "Delivery Date : "
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:222
+msgid "Delivery Date:"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:377
+#: admin/includes/templates/afgc-gift-card-product-temp.php:589
+msgid "Delivery date:"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:424
+#: admin/includes/templates/afgc-gift-card-product-temp.php:570
+msgid "Delivery Info"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:220
+msgid "Delivery Section"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:95
+msgid "Digital"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:562
+msgid "Disclaimer"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:563
+msgid "Disclaimer text for PDF."
+msgstr ""
+
+#: addify-gift-card.php:1031
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:274
+msgid "Discount Amount"
+msgstr ""
+
+#: addify-gift-card.php:1022
+msgid "Discount type"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:152
+msgid "Display all gift cards using shortcode."
+msgstr ""
+
+#: front/class-af-gift-card-front.php:528
+#: front/class-af-gift-card-front.php:720
+#: admin/includes/templates/afgc-dashboard-temp.php:58
+msgid "Download"
+msgstr ""
+
+#: addify-gift-card.php:330
+msgid "Edit Gallery"
+msgstr ""
+
+#: addify-gift-card.php:282
+msgid "Edit Gift Card"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:244
+#: admin/includes/templates/afgc-gift-card-product-temp.php:295
+msgid "Email"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:348
+#: admin/includes/templates/afgc-gift-card-product-temp.php:455
+msgid "Email:"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:299
+msgid "Enable another recipient"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:526
+msgid "Enable coupon code for pdf."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:553
+msgid "Enable disclaimer"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:498
+msgid "Enable gift card image"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:535
+msgid "Enable gift card message for pdf."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:507
+msgid "Enable gift card name"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:517
+msgid "Enable gift card price for pdf."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:193
+msgid "Enable gift cards gallery"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:194
+msgid "Enable gift cards gallery."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:516
+msgid "Enable price"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:350
+msgid "Enable sender section"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:489
+msgid "Enable store logo"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:467
+msgid "Enable store name"
+msgstr ""
+
+#: addify-gift-card.php:984
+msgid "Enable this checkbox to let customers enter custom gift card amount."
+msgstr ""
+
+#: addify-gift-card.php:964
+msgid ""
+"Enable this checkbox to let customers upload custom image for gift card."
+msgstr ""
+
+#: addify-gift-card.php:973
+msgid "Enter a button label"
+msgstr ""
+
+#: addify-gift-card.php:975
+msgid "Enter a label for custom upload image button."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:240
+msgid "Enter a label for email checkbox."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:262
+msgid "Enter a label for print at home checkbox."
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:419
+msgid "Enter a message for the recipient"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:127
+msgid "Enter a prefix for coupon."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:287
+msgid "Enter a title for recipient info section."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:420
+msgid "Enter a title for section."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:360
+msgid "Enter a title for sender section."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:203
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:227
+msgid "Enter a title for this section."
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:257
+#: admin/includes/templates/afgc-gift-card-product-temp.php:549
+msgid "Enter amount"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:602
+msgid "Enter message for recipient"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:481
+msgid "Enter store name"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:477
+msgid "Enter store name."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:309
+msgid "Enter text for the another recipient option."
+msgstr ""
+
+#: addify-gift-card.php:1042
+msgid "Expiration days"
+msgstr ""
+
+#: admin/includes/templates/afgc-pdf-template.php:319
+msgid "Expires on: "
+msgstr ""
+
+#: front/class-af-gift-card-front.php:526
+#: front/class-af-gift-card-front.php:716
+msgid "Expiry"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:249
+msgid "Expiry:"
+msgstr ""
+
+#: addify-gift-card.php:674 addify-gift-card.php:702 addify-gift-card.php:724
+#: addify-gift-card.php:893 addify-gift-card.php:1166 addify-gift-card.php:1738
+msgid "Failed Ajax security check!"
+msgstr ""
+
+#: front/includes/emails/html/afgc-coupon-code-html.php:138
+msgid "From"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:144
+#: admin/includes/templates/afgc-gift-card-product-temp.php:447
+#: admin/includes/templates/afgc-pdf-template.php:288
+msgid "From:"
+msgstr ""
+
+#: addify-gift-card.php:335
+msgid "Gallery Link"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:27
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:44
+msgid "General"
+msgstr ""
+
+#: addify-gift-card.php:855 addify-gift-card.php:863
+#: admin/class-af-gift-card-admin.php:499
+#: front/class-af-gift-card-front.php:524
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:19
+msgid "Gift Card"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:714
+msgid "Gift Card "
+msgstr ""
+
+#: admin/includes/templates/afgc-dashboard-temp.php:52
+msgid "Gift Card Code"
+msgstr ""
+
+#: addify-gift-card.php:1082
+msgid "Gift Card Discount Applicable To:"
+msgstr ""
+
+#: front/includes/emails/class-af-gift-card-mail.php:73
+#: front/includes/emails/class-af-gift-card-mail.php:77
+msgid "Gift Card Email:"
+msgstr ""
+
+#: addify-gift-card.php:323 addify-gift-card.php:324
+#: admin/class-af-gift-card-admin.php:218
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:186
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:207
+#: admin/includes/templates/afgc-gift-card-product-temp.php:99
+msgid "Gift Card Gallery"
+msgstr ""
+
+#: addify-gift-card.php:321
+msgid "Gift Card Image Gallery"
+msgstr ""
+
+#: admin/class-af-gift-card-admin.php:212
+msgid "Gift Card Logs"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:543
+msgid "Gift card message"
+msgstr ""
+
+#: addify-gift-card.php:944
+msgid "Gift Card Options"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:460
+msgid "Gift Card PDF"
+msgstr ""
+
+#: addify-gift-card.php:953
+msgid "Gift card value"
+msgstr ""
+
+#: addify-gift-card.php:290 addify-gift-card.php:291
+#: admin/class-af-gift-card-admin.php:123
+#: admin/class-af-gift-card-admin.php:124
+#: admin/includes/templates/afgc-dashboard-temp.php:48
+#: admin/includes/templates/afgc-dashboard-temp.php:53
+msgid "Gift Cards"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:151
+msgid "Gift cards"
+msgstr ""
+
+#: addify-gift-card.php:279
+msgid "Gift Cards Log"
+msgstr ""
+
+#: addify-gift-card.php:278
+msgid "Gift Cards Logs"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.woocommerce.com/product/advanced-gift-card/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/vendor/addify/"
+msgstr ""
+
+#: addify-gift-card.php:479 addify-gift-card.php:570
+msgid "Images in this category"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:118
+msgid "Issued"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:124
+msgid "Issued Amount"
+msgstr ""
+
+#: addify-gift-card.php:1077
+msgid "Leave empty for all."
+msgstr ""
+
+#: addify-gift-card.php:1138
+msgid ""
+"Leave empty to let customers use gift card discount on any product(s) from "
+"entire catalog."
+msgstr ""
+
+#: addify-gift-card.php:1003
+msgid "Maximum custom amount"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:534
+#: front/includes/emails/html/afgc-coupon-code-html.php:155
+msgid "Message"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:200
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:209
+#: admin/includes/templates/afgc-gift-card-product-temp.php:418
+#: admin/includes/templates/afgc-gift-card-product-temp.php:601
+msgid "Message:"
+msgstr ""
+
+#: addify-gift-card.php:992
+msgid "Minimum custom amount"
+msgstr ""
+
+#: front/includes/emails/html/afgc-coupon-code-html.php:101
+msgid "Name"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:343
+#: admin/includes/templates/afgc-gift-card-product-temp.php:413
+msgid "Name:"
+msgstr ""
+
+#: addify-gift-card.php:333
+msgid "New Gallery name"
+msgstr ""
+
+#: addify-gift-card.php:283
+msgid "New Gift Card"
+msgstr ""
+
+#: addify-gift-card.php:334
+msgid "No Gallery found"
+msgstr ""
+
+#: front/includes/templates/afgc-gift-card-taxonomies-modal.php:85
+msgid "No Gift Card Category Found."
+msgstr ""
+
+#: addify-gift-card.php:288
+msgid "No Gift Card field found in Trash"
+msgstr ""
+
+#: addify-gift-card.php:287
+msgid "No Gift Card Found"
+msgstr ""
+
+#: front/includes/templates/afgc-gift-card-taxonomies-modal.php:83
+msgid "Nothing Found"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:378
+msgid "Now"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:273
+msgid "Order"
+msgstr ""
+
+#: addify-gift-card.php:328
+msgid "Parent Gallery"
+msgstr ""
+
+#: addify-gift-card.php:329
+msgid "Parent Gallery:"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:30
+msgid "PDF"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:99
+msgid "Physical"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:402
+msgid "Physical Gift Card"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:29
+msgid "Physical gift card"
+msgstr ""
+
+#: addify-gift-card.php:955
+msgid ""
+"Please enter a value with one monetary decimal point  without thousand "
+"separators and currency symbols."
+msgstr ""
+
+#: addify-gift-card.php:1033
+msgid ""
+"Please enter a value with one monetary decimal point without thousand "
+"separators and currency symbols."
+msgstr ""
+
+#: front/class-af-gift-card-front.php:525
+#: front/class-af-gift-card-front.php:717
+msgid "Price"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:266
+#: admin/includes/templates/afgc-gift-card-product-temp.php:307
+msgid "Print at home"
+msgstr ""
+
+#: addify-gift-card.php:1086
+msgid "Products"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:513
+#: front/class-af-gift-card-front.php:534
+msgid "Purchased Gifts"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:130
+msgid "Purchased Order"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:527
+msgid "Receipent Email"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:715
+msgid "Received"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:514
+#: front/class-af-gift-card-front.php:706
+msgid "Received Gifts"
+msgstr ""
+
+#: admin/includes/templates/afgc-dashboard-temp.php:54
+msgid "Recipient"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:398
+#: front/class-af-gift-card-front.php:420
+msgid "Recipient Email"
+msgstr ""
+
+#: addify-gift-card.php:410 admin/class-af-gift-card-admin.php:466
+msgid "Recipient Email : "
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:291
+#: admin/includes/templates/afgc-gift-card-product-temp.php:319
+msgid "Recipient Info"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:388
+#: front/class-af-gift-card-front.php:410
+msgid "Recipient Name"
+msgstr ""
+
+#: addify-gift-card.php:403 admin/class-af-gift-card-admin.php:460
+msgid "Recipient Name : "
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:579
+msgid "Recipient Name:"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:279
+msgid "Recipient Section"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:136
+msgid "Redeemed"
+msgstr ""
+
+#: admin/includes/templates/afgc-dashboard-temp.php:56
+#: admin/includes/templates/afgc-dashboard-temp.php:285
+msgid "Remaining Amount"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:252
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:321
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:329
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:372
+msgid "Required Field"
+msgstr ""
+
+#: addify-gift-card.php:1052
+msgid "Restricted by user roles "
+msgstr ""
+
+#: addify-gift-card.php:285
+msgid "Search Gift Card"
+msgstr ""
+
+#: addify-gift-card.php:326
+msgid "Search Gift Card Gallery"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:88
+msgid "Select background color on hover."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:61
+msgid "Select background color."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:97
+msgid "Select border color on hover."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:70
+msgid "Select border color."
+msgstr ""
+
+#: addify-gift-card.php:1112
+msgid "Select Categories"
+msgstr ""
+
+#: addify-gift-card.php:1133
+msgid "Select categories for this gift card."
+msgstr ""
+
+#: addify-gift-card.php:1088
+msgid "Select product"
+msgstr ""
+
+#: addify-gift-card.php:1104
+msgid "Select product for this gift card."
+msgstr ""
+
+#: addify-gift-card.php:1054
+msgid "Select Roles"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:106
+msgid "Select text color on hover."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:79
+msgid "Select text color."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:52
+msgid "Select this checkbox to override default theme."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:364
+#: admin/includes/templates/afgc-gift-card-product-temp.php:397
+msgid "Sender Info"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:440
+msgid "Sender Message"
+msgstr ""
+
+#: addify-gift-card.php:393 admin/class-af-gift-card-admin.php:450
+msgid "Sender Message : "
+msgstr ""
+
+#: front/class-af-gift-card-front.php:430
+msgid "Sender Name"
+msgstr ""
+
+#: addify-gift-card.php:387
+msgid "Sender Name :"
+msgstr ""
+
+#: admin/class-af-gift-card-admin.php:444
+msgid "Sender Name : "
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:584
+msgid "Sender Name:"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:343
+msgid "Sender Section"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:192
+#: admin/includes/templates/afgc-gift-card-product-temp.php:483
+msgid "Set an amount"
+msgstr ""
+
+#: addify-gift-card.php:1005
+msgid "Set an optional maximum custom amount for this gift card."
+msgstr ""
+
+#: addify-gift-card.php:994
+msgid "Set an optional minimum custom amount for this gift card."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:144
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:476
+msgid "Store name"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:78
+msgid "Text"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:308
+msgid "Text for another recipient option."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:105
+msgid "Text on hover"
+msgstr ""
+
+#: front/includes/emails/class-af-gift-card-mail.php:52
+msgid "This will help to Recipient someone through email"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:202
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:226
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:286
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:359
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:419
+msgid "Title"
+msgstr ""
+
+#: front/includes/emails/html/afgc-coupon-code-html.php:143
+msgid "To"
+msgstr ""
+
+#: admin/includes/meta-boxes/afgc-gift-card-info.php:158
+#: admin/includes/templates/afgc-gift-card-product-temp.php:452
+#: admin/includes/templates/afgc-pdf-template.php:292
+msgid "To:"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:590
+msgid "Today"
+msgstr ""
+
+#: admin/includes/templates/afgc-dashboard-temp.php:57
+#: admin/includes/templates/afgc-dashboard-temp.php:291
+msgid "Total Amount"
+msgstr ""
+
+#: admin/includes/templates/afgc-dashboard-temp.php:273
+msgid "Total Gift Cards"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:698
+#: front/class-af-gift-card-front.php:898
+msgid "Total: "
+msgstr ""
+
+#: addify-gift-card.php:331
+msgid "Update Gallery"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:115
+msgid "Upload Card"
+msgstr ""
+
+#: addify-gift-card.php:522 addify-gift-card.php:630
+msgid "Use image"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:718
+msgid "Used"
+msgstr ""
+
+#: admin/includes/templates/afgc-dashboard-temp.php:55
+#: admin/includes/templates/afgc-dashboard-temp.php:279
+msgid "Used Amount"
+msgstr ""
+
+#: front/class-af-gift-card-front.php:899
+msgid "Used: "
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:172
+msgid "View All "
+msgstr ""
+
+#: addify-gift-card.php:284
+msgid "View Gift Card"
+msgstr ""
+
+#: addify-gift-card.php:878
+msgid "Virtual"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:443
+msgid "Virtual Gift Card"
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:28
+msgid "Virtual gift card"
+msgstr ""
+
+#: addify-gift-card.php:879
+msgid "Virtual products are intangible and are not shipped."
+msgstr ""
+
+#: admin/includes/settings/class-af-gift-card-settings-tab.php:546
+msgid "Write message with the instruction"
+msgstr ""
+
+#: addify-gift-card.php:586
+msgid "X"
+msgstr ""
+
+#: admin/includes/templates/afgc-gift-card-product-temp.php:341
+msgid "x"
+msgstr ""

@@ -1,0 +1,482 @@
+.afgc-metabox-table,
+.afgc_options_form table{
+	width: 100%;
+	margin-bottom: 25px;
+	padding-top:10px;
+}
+
+#wpadminbar #wp-admin-bar-new-afgc_gift_card_log,
+.afgc_allow_custom_img_field{
+	display:none;
+}
+
+.afgc_enable_custom_image_btn_field {
+	display:none;
+}
+
+.afgc_options_form{
+	box-sizing: border-box;
+	background: #fff;
+	padding: 20px 10px;
+	margin: 0px 0px;
+	border: 1px solid #d8d8d8;
+	border-top: 0;
+	margin-bottom: 40px;
+}
+
+.afgc_options_form table thead td,
+.afgc_options_form table tr:nth-child(even){
+	background-color: #f8f9ff;
+}
+
+.afgc-log-table table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.afgc-log-table table tr th,
+.afgc-log-table table tr td{
+	text-align: left;
+	padding: 15px 15px 15px;
+	border:1px solid #0000001a
+}
+
+.afgc_options_form table tr td{
+	 padding: 15px 8px 15px;
+}
+
+.afgc-label-box{
+	vertical-align: top;
+	width: 30%;
+	padding: 5px 0px;
+}
+
+.afgc-label-box label{
+	 font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #000;
+}
+
+.afgc-fld-box{
+	vertical-align: top;
+	width: 70%;
+	padding: 0 0 30px;
+}
+
+.afgc-input-fld{
+	  width: 100%;
+	height: 40px;
+	border: 1px solid #00000052;
+	margin-bottom: 5px;
+}
+
+.afgc-num-fld{
+	width: 20%;
+	height: 40px;
+	border: 1px solid #00000052;
+	margin-bottom: 5px;
+}
+
+.afgc-textarea-fld{
+	width: 100%;
+	height: 110px;
+	border: 1px solid #00000052;
+	margin-bottom: 5px;
+}
+
+.afgc-fld-box i,
+.afgc_options_form p.description,
+.description{
+	color: #777;
+	font-style: italic;
+	display: block;
+}
+
+.afgc-digital-gift-data,
+.post-type-afgc_gift_card_log #post-body-content,
+.post-type-afgc_gift_card_log .wp-heading-inline{
+	display: none !important;
+}
+
+.afgc_special_discount_amount_field {
+  display: none;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 55px;
+	height: 25px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+	height: 20px;
+	width: 48px;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 13px;
+	width: 13px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider {
+	background-color: #4f94d4;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #4f94d4;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+[type='color'] {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	padding: 0;
+	height: 15px;
+	border: none;
+}
+
+[type='color']::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+
+[type='color']::-webkit-color-swatch {
+	border: none;
+}
+
+.afgc_options_form h2{
+	font-size: 20px;
+  line-height: 30px;
+  color: #2271b1;
+}
+
+.afgc-label-style-box ul{
+	margin: 0;
+}
+
+.afgc-label-style-box input {
+	margin: 0px 3px !important;
+}
+
+.par_cat ul{
+	margin: 7px 0px 7px 30px;
+}
+
+.hide_if_afgc_virtual{
+	display: none !important;
+}
+
+.afgc-gift-card-cat-gallery li{
+	display: inline-block;
+	vertical-align: middle;
+	width: 125px;
+	height: 125px;
+	margin-right: 5px;
+	position: relative;
+	border: 4px solid #fff;
+}
+
+.afgc-gift-card-cat-gallery li span{
+	  position: absolute;
+	top: -8px;
+	background: #fff;
+	border-radius: 50%;
+	right: -10px;
+	width: 12px;
+	height: 12px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 11px;
+	padding: 2px;
+	font-weight: 600;
+	cursor: pointer;
+	color: #000;
+}
+
+.afgc-gift-card-cat-gallery li img{
+	  width: 100%;
+	  height: 100%;
+}
+
+#gift_card_options .options_group{
+   box-sizing: border-box;
+   padding: 0px 25px;
+}
+.adf-dashboard-pagination{
+	    text-align: right;
+    margin-right: 15px;
+}
+.adf-dashboard-pagination a, .adf-dashboard-pagination span{
+	   padding: 4px 9px 5px;
+    border: 1px solid;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 22px;
+}
+.adf-dashboard-pagination span, .adf-dashboard-pagination a:hover{
+	background-color: #2271b1;
+	color: #fff;
+	 border: 1px solid #2271b1;
+}
+/*=======================*/
+
+/*======= Dashboard =====*/
+
+/*======================*/
+
+.afgc-dashboard-section{
+  display: table;
+  width: 100%;
+}
+
+.afgc-dashboard-card-list{
+  display: table-footer-group;
+}
+
+.afgc-dashboard-nav{
+  display: table-header-group;
+}
+
+.afgc-dashboard-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 23.20%;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 40px 20px 50px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+	margin-right: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 3px 0 12px 0 rgb(154 168 255 / 19%);
+	border-top: 6px solid #2271b1;
+	margin-bottom: 35px;
+}
+
+.afgc-dashboard-box h4{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	margin: 0;
+	position: relative;
+}
+
+.afgc-dashboard-box h4 img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	opacity: 0.2;
+	height: 50px;
+}
+
+.afgc-dashboard-box p{
+  font-size: 14px !important;
+  line-height: 24px;
+}
+
+.afgc-tabs-section table tr th{
+  display: block !important;
+  width: 0px !important;
+}
+
+.afgc-download-col img{
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.afgc-product-name-col a,
+.afgc-coupon-code-col a{
+  text-decoration: none;
+}
+
+
+.afgc-card-info{
+  position: relative;
+  box-sizing: border-box;
+  padding:25px;
+}
+
+.afgc-info-header{
+  position: relative;
+  box-sizing: border-box;
+  background-color: #f8f9ff;
+  padding:25px;
+}
+
+.afgc-info-header title{
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.afgc-info-header ul{
+  position: absolute;
+  right: 6px;
+  top: 12px;
+}
+
+.afgc-info-header ul li{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.afgc-info-header label{
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin:25px 0 10px;
+}
+
+.afgc-info-header h4{
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.afgc-info-content{
+  margin:25px 0;
+}
+
+.afgc-info-content ul{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+.afgc-info-content .afgc-info-tabs li{
+  display: inline-block;
+  vertical-align: top;
+  width: 24%;
+  border: 1px solid #dfe3fa;
+}
+
+.afgc-recp{
+  display: table;
+  width: 100%;
+  margin: 35px 0;
+}
+
+.afgc-card-to-info,
+.afgc-card-from-info{
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+.afgc-info-content label{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.afgc-recp input{
+  width: 100%;
+  height: 45px;
+  border: 1px solid #00000029;
+  background-color: #f8f9ff;
+}
+
+.afgc-info-content textarea{
+  width: 97%;
+  height: 110px;
+  border: 1px solid #00000029;
+  background-color: #f8f9ff;
+  padding:10px;
+}
+
+.afgc-delivered-status a{
+	text-decoration: none;
+	background-color: #08b458;
+	font-size: 11px;
+	line-height: 21px;
+	font-weight: 500;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 15px;
+	text-transform: capitalize;
+}
+
+.post-type-afgc_gift_card_log .page-title-action{
+  display: none; 
+}
+
+.term-thumbnail-wrap label{
+		vertical-align: top;
+	text-align: left;
+	padding: 20px 10px 20px 0;
+	width: 200px;
+	line-height: 1.3;
+	font-weight: 600;
+	color: #1d2327;
+	font-size: 14px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.term-thumbnail-wrap .upload_image_button{
+	margin-bottom:10px;
+}
+
+.afgc_shortcodes{
+  border:0px !important;
+  background-color: transparent !important;
+  font-size: 22px;
+  font-weight: 600;
+  padding:0 !important;
+}
+.afgc-variation-check{
+	margin-left: 10px!important;
+}
+.afgc-variation-select{
+	display: block;
+	margin: 8px 0;
+}

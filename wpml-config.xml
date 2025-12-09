@@ -1,0 +1,9 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="ignore">afgc_digital_checkbox</custom-field>
+    <custom-field action="translate">afgc_sender_name</custom-field>
+    <custom-field action="translate">afgc_recipient_name</custom-field>
+    <custom-field action="translate">afgc_gift_card_msg</custom-field>
+    <custom-field action="translate">kptp_select_product_opt</custom-field>
+  </custom-fields>
+</wpml-config>

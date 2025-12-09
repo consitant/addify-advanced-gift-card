@@ -1,0 +1,73 @@
+*** Advanced Gift Card Change log ***
+
+2025-10-08- version 1.7.0
+* Update – Added compatibility with WooCommerce Cart & Checkout blocks.
+* Update – Added reminder notifications for users before coupon expiration.
+* Add – Enabled export of WooCommerce gift card coupons.
+* Add – Introduced “Gift This Product” option on the product page.
+
+2025-02-06- version 1.6.0
+* Add - Added option to choose a specific gift card amount.
+* Add - Added pagination in gift card dashboard & gift tab in my account page.
+* Add - Added auto send mail to customer on selected delivery date.
+* Add - Allow admin to add custom logo in attachment pdf.
+* Add - Add allow email-less coupons.
+* Add - Preview gift card.
+* Add - Send product as gift.
+* Update - Added image upload instructions for customers.
+* Update - Add error message on wrong format image or image size problems.
+* Update - Ensure that one of the options(email or print at home) remains mandatory.
+* Update - Choosing a title name for gift cards downloaded via the dashboard or my account page instead of document.pdf
+* Update - Choosing a document prefix for the gift cards sent by email
+* Update - Choosing the date format.
+* Fix - Fixed custom image preview issue.
+* Fix - Fixed my account page issue.
+* Fix - Fixed multiple recipient coupon use issue.
+* Fix - Fixed discount and taxes issue.
+* Fix - Fixed multiple gift card mail issue.
+
+2024-03-13- version 1.5.1
+* Fix - Fixed Translation issues.
+
+2024-01-26- version 1.5.0
+* Fix - Fixed Product Thumbnails not showing on Orders.
+* Add - Added required fields.
+* Add - Added Translation Template.
+* Fix - version update of Dom library.
+
+2023-12-26- version 1.4.2
+* Fix - Fixed bug with regular price.
+* Fix - Fixed bug with gift card dashboard.
+* Fix - Fixed tax issue.
+* Add - Added required fields check.
+
+2023-11-07 - version 1.4.1
+* Fix - Fixed nonce issues.
+
+2023-10-13 - version 1.4.0
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+* Fix - Fixed nonce issues.
+
+2023-07-20 - version 1.3.0
+* Update - Compatible with WooCommerce High-Performance Order Storage (HPOS).
+* Fix - Fixed Security Vulnerabilities.
+
+2023-04-03 - version 1.2.0
+* Update - Updated Physical Gift Card Settings.
+* Delete - Remove dependability of Customers Message on Delivery Info Section.
+* Update - Updated delivery date display formate.
+* Add - Added gift card expiry date column in My account page.
+
+2023-03-28 - version 1.1.0
+* Update - Moved gift card gallery to extension settings.
+* Feature - Added option to allow custom image upload on product level.
+* Update - Consolidated general settings to better UX.
+
+2022-10-17 - version 1.0.1
+* Feature - Feature added download PDF on Account Page.
+* Feature - Send PDF in email.
+* Fix - Bug fixed with gift card images.
+* Fix - Bug fixed with gift card log.
+
+2022-09-28 - version 1.0.0
+* Initial release of the plugin.

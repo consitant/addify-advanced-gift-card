@@ -1,0 +1,1012 @@
+.afgc-gift-card-amount-box{
+	box-sizing: border-box;
+/*	overflow: hidden;*/
+	padding-right: 5px;
+}
+
+.afgc-gift-card-amount-box h3{
+	font-size: 18px;
+	line-height: 28px;
+	color: #404040;
+	font-weight: bold;
+	margin: 20px 0px 15px;
+}
+.pagination{
+	border-bottom: none!important;
+}
+
+.afgc-choose-image ul,
+.afgc-choose-image-content ul,
+.afgc-virtual-custom-amount ul,
+.afgc-gift-account-content ul,
+.afgc-physical-gift-card ul,
+.afgc-main-form-preview-container ul,
+.afgc-gift-card-details ul,
+.afgc_gift_card_opt {
+	list-style: none;
+	padding: 0!important;
+	margin: 0!important;
+}
+.afgc_custom-image_allow_main{
+	min-height: 33px!important;
+}
+.adf-dashboard-pagination a,
+.adf-dashboard-pagination span{
+	    padding: 3px 7px 4px;
+    border: 1px solid #2271b1;
+    color: #2271b1;
+    text-decoration: none!important;
+    font-size: 13px;
+    border-radius: 3px;
+    line-height: 34px!important;
+}
+.adf-dashboard-pagination a:hover,
+.adf-dashboard-pagination span{
+	color: #fff;
+	background-color: #2271b1;
+}
+.adf-dashboard-pagination{
+	text-align: right;
+}
+.afgc-virtual-custom-amount ul li,
+.afgc-physical-gift-card ul li,
+.afgc-gift-card-details ul li{
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.afgc-virtual-custom-amount ul li{
+	vertical-align: top!important;
+}
+
+.afgc-enter-custom-amount li:last-child{
+	width:65px;
+}
+
+.afgc-enter-custom-amount li:last-child input{
+	width:100%;
+}
+.afgc_gift_card_opt{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+}
+
+.afgc_gift_card_opt li{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;    
+	margin-right: 10px;
+}
+
+.afgc-choose-image ul li{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 4px 2px;
+	width: 50px;
+	border-radius: 3px;
+	height: 50px;
+}
+
+.afgc-marked{
+	position: relative;
+}
+
+.afgc-marked:before{
+	content: '';
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	border-radius: 50%;
+	top: -7px;
+	right: -6px;
+	background-image: url(../images/check.png);
+	background-size: 9px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.afgc-choose-image-item img,
+.afgc-choose-image ul li img{
+	width: 100%;
+	cursor: pointer;
+	height: 100%;
+	object-fit: cover;
+}
+
+.afgc-view a{
+	font-size: 10px;
+	line-height: 22px;
+	font-weight: bold;
+	display: block;
+	width: 50px;
+	height: 50px;
+	padding: 15px 0;
+	cursor: pointer;
+}
+
+/*===== Choose Image Modal =====*/
+
+.afgc-choose-image{
+	margin: 15px 0;
+}
+
+.afgc-choose-image-wrapper{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgb(0 0 0 / 80%);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	z-index: 9999;
+}
+
+.afgc-choose-image-modal{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	max-width: 800px;
+	box-sizing: border-box;
+	background-color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 3px 3px 6px #00000029;
+}
+
+.afgc-choose-image-modal::-webkit-scrollbar {
+	width: 12px;
+}
+
+.woocommerce-product-gallery__trigger{
+	display:none !important;
+}
+ 
+.afgc-choose-image-modal::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	border-radius: 10px;
+}
+ 
+.afgc-choose-image-modal::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.afgc-choose-image-modal-close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	padding: 5px 15px;
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.afgc-choose-image-content{
+	display: table;
+	width: 100%;
+	height: 100%;
+} 
+
+.afgc-choose-image-content h3{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.afgc-tax-tabs-menu{
+	padding: 60px 30px;
+	width: 230px;
+	height: 100%;
+	background-color: #eaeff3;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.afgc-tax-tabs-content{
+	padding: 60px 30px;
+	box-sizing: border-box;
+	display: table-cell;
+	vertical-align: top;
+}
+
+.afgc-tab-nav li{
+	display: block;
+	padding: 7px 0px;
+	border-bottom: 1px solid #ffffff78;
+}
+
+.afgc-tab-nav li a{
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.afgc-tax-gallery{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.afgc-tax-gallery li{
+	display: inline-block;
+	vertical-align: middle;
+	width: 75px;
+	height: 75px;
+	position: relative;
+	cursor: pointer;
+	margin: 1px 0;
+}
+
+.afgc-tax-gallery li img{
+	width: 100%;
+	height: 100%;
+}
+
+.afgc-gift-card-amount-box {
+	margin-bottom: 25px;
+}
+.afgc-option-radio input{
+	    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+.afgc-option-radio{
+	position: relative;
+}
+
+.afgc-gift-card-amount-box input[type=text],
+.afgc-gift-card-amount-box input[type=number],
+.afgc-gift-card-amount-box input[type=email],
+.afgc-gift-card-amount-box input[type=date],
+.afgc-gift-card-amount-box textarea{
+	transition: border-color ease 0.3s;
+	background-color: #ffffff !important;
+	box-shadow: none !important;
+	padding: 2px 6px !important;
+	display: inline-block;
+	font-size: 12px;
+	border-radius: 2px;
+	line-height: 22px;
+	height: auto!important;
+	border: 1px solid #428b86;
+}
+
+.afgc-gift-card-amount-box button,
+.afgc-gift-card-amount-box label.afgc-option-radio{
+    box-shadow: none !important;
+    width: fit-content;
+    padding: 2px 9px !important;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    min-width: 56px;
+    border-radius: 2px;
+    line-height: 22px;
+    transition: border-color ease 0.3s;
+}
+
+.afgc-main-form-preview-container{
+	display: block;
+}
+
+.afgc-section-label-custom-btn{
+	position: relative;
+}
+
+.afgc-gift-card-amount-box h5{
+	font-size: 16px;
+	line-height: 26px;
+	color: #000;
+	position: relative;
+	margin: 10px 0 5px;
+	font-weight: 600;
+}
+
+.afgc-upload-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	max-width: 104px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: right;
+	z-index: 999;
+}
+
+.afgc-upload-img label{
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+	line-height: 22px;
+	border-radius: 3px;
+	font-weight: 600;
+	padding: 5px 10px;
+	max-width: 104px;
+}
+
+.afgc-upload-img-btn{
+	opacity: 0;
+}
+
+.afgc-gift-card-amount-box .woocommerce-Price-currencySymbol{
+	font-size:12px;
+	line-height:22px;
+	padding-left:2px;
+}
+
+.afgc-form-group{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 12px;
+	width: 100%
+}
+
+.afgc-frnt-input-fld{
+	color: #666 !important;
+	padding: 5px 10px !important;
+	font-family: inherit;
+	min-height: 35px;
+	height: auto;
+	max-width: 100%;
+	transition: border-color ease 0.3s;
+	background-color: #ffffff !important;
+	width: 70%!important;
+	box-shadow: none !important;
+	border: 1px solid #428b86 !important;
+	transition: border-color ease 0.3s;
+	box-shadow: none !important;
+}
+
+.afgc-frnt-txtarea-fld{
+	color: #666 !important;
+	padding: 5px 5px !important;
+	font-family: inherit;
+	height: 75px;
+	max-width: 100%;
+	transition: border-color ease 0.3s;
+	background-color: #ffffff !important;
+	width: 70%;
+	box-shadow: none !important;
+	font-size: 12px;
+   line-height: 22px;
+}
+
+.afgc-frnt-input-fld::placeholder,
+.afgc-frnt-txtarea-fld::placeholder,
+.afgc-gift-card-amount-box input::placeholder{
+	color: #666666cf;
+	font-size: 12px;
+}
+
+.afgc-clone-btn{
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 22px;
+	margin-bottom: 10px;
+	color: #15726b;
+}
+
+.afgc-clone-btn:hover,
+.afgc-clone-btn:focus,
+.afgc-clone-btn:active{
+	outline: 0px !important;
+	border: 0;
+	text-decoration: underline;
+}
+
+#afgc_items_for_clone,
+.afgc_items_for_clone{
+	margin-bottom: 30px;
+	position: relative;
+	margin-top: 15px;
+}
+
+.afgc_items_for_clone{
+	margin-bottom: 30px;
+	position: relative;
+	border-radius: 5px;
+	padding: 25px 20px 15px;
+	border: 1px solid #0000001a;
+	margin-top: 15px;
+}
+
+.afgc-delete-field{
+	position: absolute;
+	right: 5px;
+	top: 0;
+	cursor: pointer;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+.woocommerce-product-gallery{
+	position: relative;   
+}
+
+.afgc-main-form-preview-container{
+	height: auto;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+	background-color: white;
+	box-shadow: 0 10px 19px -12px;
+	border: 1px solid #0000000a;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 20px;
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	display: none;
+	bottom: -165px;
+}
+
+.afgc-main-form-preview-container h3{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #0000000d;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+} 
+.afgc-main-form-preview-container ul li{
+	display: flex;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	flex-wrap: nowrap;
+	gap: 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.afgc-main-form-preview-container ul li span{
+	width: 84%;
+}
+.afgc-main-form-preview-container li label{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	text-align: left;
+	font-weight: 600;
+}
+
+.woocommerce-product-gallery__image a img{
+	width: 100%;
+}
+
+.afgc-virtual-custom-amount ul li label, 
+.afgc-physical-gift-card ul li label, 
+.afgc_gift_card_opt li label,
+.afgc-form-group label{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+}
+.afgc_gift_card_opt li label{
+	margin-right: 5px !important;
+	margin-bottom: 0 !important;
+	margin-left: 5px!important;
+}
+.afgc-enter-custom-amount{
+	    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.afgc-section-label-custom-btn .afgc_popup_text{
+	visibility: hidden;
+	 width: 185px;
+    background-color: #fafafa;
+    color: #0d0c0c;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    padding: 11px 11px;
+    position: absolute;
+    z-index: 99999;
+    top: -114px;
+    font-size: 13px;
+    border: 1px solid #00000096;
+    right: 0;
+    line-height: 19px;
+}
+.afgc-upload-img:hover + .afgc_popup_text{
+	visibility: visible;
+}
+.afgc-section-label-custom-btn .afgc_popup_text::after{
+	    content: "";
+    position: absolute;
+    top: 100%;
+    right: 25px;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+}
+/*=======================================*/
+
+/*=============Cart Page ===============*/
+
+/*=====================================*/
+
+
+.afgc-have-code{
+	padding: 30px 15px 30px 30px;
+	list-style-type: none;
+	margin: 25px 0px 35px;
+	border-radius: 0;
+	border-right:10px solid #f8f8f8;
+	color: #000;
+	font-weight: 500;
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 15%);
+	background-color: #fff;
+	font-size:16px;
+	line-height: 26px;
+}
+
+.afgc-show-giftcard{
+	font-size: 17px;
+	margin:0px 6px;
+}
+
+.afgc-enter-code{
+	padding: 30px 15px 30px 30px;
+	list-style-type: none;
+	margin: 25px 0px 35px;
+	border-right:10px solid #f8f8f8;
+	color: #000;
+	font-size: 1rem;
+	font-weight: 500;
+	box-shadow: 0 0 20px 0 rgb(0 0 0 / 15%);
+	background-color: #fff;
+	display: none;
+}
+
+.afgc-enter-code h4{
+	font-size: 18px;
+	line-height: 28px;
+	line-height: normal;
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.afgc-gift-card-code-fld{
+	width:70%;
+	display: inline-block;
+	box-shadow: none !important;
+	background-color: transparent !important;
+	border: 1px solid #0000001f !important;
+	vertical-align: middle;
+	height: 49px;
+}
+
+.afgc-gift-card-button{
+	display: inline-block;
+	vertical-align: middle;
+	width: 27%;
+	height: 49px;
+}
+
+
+
+/*=======================================*/
+
+/*========== Account Page ==============*/
+
+/*=====================================*/
+
+.afgc-tabs{
+	position: relative;
+	box-sizing: border-box;
+	padding: 0 15px;
+	overflow: hidden;
+}
+
+.afgc-tabs-navs{
+	list-style: none;
+	padding: 0!important;
+	margin: 0!important;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 25px;
+	border-bottom: 1px solid #2271b154;
+	height: 39px;
+}
+.afgc-tabs-navs li{
+	list-style: none!important;
+}
+
+.afgc-tabs-navs li.active a,
+.afgc-tabs-navs li a:active,
+.afgc-tabs-navs li a:hover,
+.afgc-tabs-navs li a:focus{
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none !important;
+	background-color:#2271b1;
+	color:white;
+	margin-right: 10px;
+	border:1px solid #2271b1;
+	outline: 0 !important;
+}
+
+.afgc-tabs-navs li a{
+	padding: 5px 15px;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none !important;
+	background-color: white;
+	color:black;
+	margin-right: 10px;
+	border:1px solid transparent;
+}
+
+.afgc-tabs h4{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	position: relative;
+}
+
+.afgc-level-one-list-item{
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,.05);
+	padding: 30px 20px;
+}
+
+.afgc-level-one-list-item:nth-child(even){
+	background: #f8f9ff;
+}
+
+.afgc-level-one-list-item:last-child{
+	border-bottom: 0;
+}
+
+.afgc-level-one-list-item li{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.afgc-level-one-list-item label{
+	font-size: 16px;
+	line-height: 26px;
+	text-align: left;
+	font-weight: 600;
+}
+
+.afgc-level-one-list-item span{
+	text-align: right;
+	float: right;
+}
+
+.afgc_items_cl .afgc-delete-field{
+	display: none;
+}
+
+.afgc-shordcodes-gifts-cards li img{
+	width: 100% !important;
+}
+
+.tab-content{
+	position: relative;
+}
+
+.afgc-net-amount{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 20px;
+	line-height: 30px;
+	color: #000;
+}
+
+.afgc-tabs h4 span{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+	line-height: 24px;
+	background: #448a85;
+	width: 100%;
+	color: #fff;
+	max-width: 80px;
+	text-align: center;
+	padding: 3px;
+}
+
+.afgc-coupon-strip{
+   text-align: right;
+}
+
+.afgc-coupon-strip li{
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 25px 20px 30px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 3px 0 12px 0 rgb(154 168 255 / 19%);
+	border-top: 6px solid #2271b1;
+	margin-bottom: 25px;
+	font-size: 14px;
+	margin-top:10px;
+	line-height: 24px;
+	text-align: left;
+}
+
+.afgc-coupon-strip li h4{
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 700;
+	margin: 0 0 10px;
+	position: relative;
+}
+
+.afgc-coupon-strip li h4 img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	opacity: 0.2;
+	height: 40px;
+}
+
+.afgc-download-col img {
+	width: 25px;
+	height: 25px;
+	display: block;
+}
+body.popup-active{
+	overflow: hidden;
+}
+
+.afgc-gift-type-wrap .select2-selection.select2-selection--single,
+.afgc-gift-type-select{
+	height: 35px;
+	padding: 0 10px!important;
+}
+.afgc-gift-type-select{
+	border-radius: 3px;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 24px!important;
+	width: 100%;
+	padding: 0!important;
+	padding-left: 5px!important;
+	max-width: 412px;
+}
+#afgc_gift_products, .afgc-gift-type-wrap .select2-container{
+	width: 100%;
+	max-width: 412px;
+	height: 35px;
+	padding: 0!important;
+}
+#select2-afgc_gift_products-container{
+	font-size: 14px;
+    line-height: 33px;
+    padding: 0!important;
+}
+.afgc-gift-type-wrap .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 33px;
+}
+.afgc-gift-type-wrap .select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #ababab;
+    background: #fff;
+    box-shadow: none;
+}
+
+
+
+/* Gift product wrap */
+.afg-product-detail-wrap {
+       border: 1px solid #d0e3ff;
+    background-color: #f7faff;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.afg-product-information {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1;
+}
+.afg-product-thumbnail img {
+    width: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #fff;
+}
+.afg-product-content h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    color: #222;
+}
+.afg-product-content h6 a{
+	color: #000;
+	font-weight: 600;
+}
+.afg-product-content .selected-variation {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 3px;
+}
+
+.afg-product-content .price {
+    font-size: 14px!important;
+    line-height: 24px;
+    color: #111;
+    margin: 0;
+}
+.afg-change a,
+.afg-product-information > span {
+    font-size: 13px;
+    color: #0073e6;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.afg-change a:hover {
+    text-decoration: underline;
+}
+
+	.afgc_preview_popup {
+	display: none; /* Hidden by default */
+	position: fixed;
+	top: 0;
+	overflow-y: auto;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 9999;
+}
+
+.afgc_popup_content {
+		position: relative;
+	background-color: #fff;
+	padding: 40px;
+	width: 100%;
+	color: #000;
+	max-width: 666px;
+	margin: 50px auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.coupon-code-preiew button{
+		font-size: 14px;
+	line-height: 24px;
+	background: none;
+	padding: .6180469716em 1.41575em;
+	border: 1px solid lightgray;
+}
+.afgc_close_popup {
+	text-align: center;
+	position: absolute;
+	top: -9px;
+	right: -8px;
+	width: 25px;
+	font-size: 22px;
+	line-height: 24px;
+	color: #000;
+	font-weight: 700;
+	cursor: pointer;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+	height: 25px;
+}
+.afd-preview-product-name-wrap span,
+.afd-preview-expire-data-wrap span{
+	margin-left: 8px;
+}
+.coupon-code-preiew{
+		margin: 16px 0 20px;
+}
+.afgc-pdf-band p, .afd-preview-product-name-wrap, .afd-preview-expire-data-wrap{
+		margin-bottom: 5px;
+	font-size: 15px;
+	line-height: 25px;
+}
+.afgc_preview_container h3 {
+	text-align: center;
+	font-size: 16px;
+	padding-top: 0;
+	border-top: none !important;
+	line-height: 26px;
+	font-weight: 500;
+}
+.afgc_preview_container{
+	text-align: center;
+}
+.afgc-disclaimer-message p{
+	margin: 0;
+	color: #000;
+	font-size: 14px;
+	line-height: 24px;
+}
+.afgc_preview_images {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.afgc-pdf-band img{
+	margin: 0 auto 6px;
+}
+.afgc-pdf-band h2{
+		font-size: 23px;
+	line-height: 33px;
+	font-weight: 700;
+	color: #000;
+}
+
+.afgc_selected_image img {
+	width: 100%;
+	height: auto;
+}
+
+.afgc_preview_details ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.afgc_preview_details li {
+	margin-bottom: 10px;
+}
+
+.afgc_preview_details li strong {
+	font-weight: bold;
+}
+
+.afgc_preview_btn {
+	border: none;
+	cursor: pointer;
+}
+.afgc-pdf-band img{
+		width: auto;
+	max-width: 118px;
+}
