@@ -40,7 +40,12 @@ class AFGC_Elementor_Integration {
 	 * Constructor
 	 */
 	private function __construct() {
-		add_action( 'plugins_loaded', array( $this, 'init' ) );
+		// Initialize immediately if Elementor is already loaded, otherwise wait for elementor/loaded
+		if ( did_action( 'elementor/loaded' ) ) {
+			$this->init();
+		} else {
+			add_action( 'elementor/loaded', array( $this, 'init' ) );
+		}
 	}
 
 	/**
@@ -60,12 +65,11 @@ class AFGC_Elementor_Integration {
 	 */
 	public function init() {
 
-		// Check if Elementor is installed and activated.
-		if ( ! did_action( 'elementor/loaded' ) ) {
+		// Check for required Elementor version.
+		if ( ! defined( 'ELEMENTOR_VERSION' ) ) {
 			return;
 		}
 
-		// Check for required Elementor version.
 		if ( ! version_compare( ELEMENTOR_VERSION, self::MINIMUM_ELEMENTOR_VERSION, '>=' ) ) {
 			add_action( 'admin_notices', array( $this, 'admin_notice_minimum_elementor_version' ) );
 			return;
@@ -150,9 +154,9 @@ class AFGC_Elementor_Integration {
 	 */
 	public function register_widgets( $widgets_manager ) {
 		// Include widget files.
-		require_once AFGC_PLUGIN_DIR . '/elementor/widgets/class-afgc-gift-cards-grid.php';
-		require_once AFGC_PLUGIN_DIR . '/elementor/widgets/class-afgc-gift-card-single.php';
-		require_once AFGC_PLUGIN_DIR . '/elementor/widgets/class-afgc-gallery.php';
+		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-gift-cards-grid.php';
+		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-gift-card-single.php';
+		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-gallery.php';
 
 		// Register widgets.
 		$widgets_manager->register( new \AFGC_Elementor_Widget_Gift_Cards_Grid() );
