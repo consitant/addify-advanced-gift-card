@@ -4,7 +4,7 @@
  * Plugin Name:   Advanced Gift Card
  * Plugin URI:    http://www.woocommerce.com/product/advanced-gift-card/
  * Description:   Allow your customers to purchase gift cards for their loved ones for multiple occasions like birthday, wedding, anniversaries, etc.
- * Version:       1.7.0
+ * Version:       1.7.1
  * Author:        Addify
  * Developed By:  Addify
  * Author URI:    https://woocommerce.com/vendor/addify/
@@ -109,6 +109,14 @@ if ( ! class_exists( 'Addify_Gift_Card' ) ) {
 
 			if ( ! defined( 'AFGC_PLUGIN_DIR' ) ) {
 				define( 'AFGC_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+			}
+
+			if ( ! defined( 'AFGC_PLUGIN_URL' ) ) {
+				define( 'AFGC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+			}
+
+			if ( ! defined( 'AFGC_PLUGIN_VERSION' ) ) {
+				define( 'AFGC_PLUGIN_VERSION', '1.7.1' );
 			}
 		}
 
@@ -251,6 +259,9 @@ if ( ! class_exists( 'Addify_Gift_Card' ) ) {
 					include_once AFGC_PLUGIN_DIR . 'front/class-af-gift-card-front.php';
 
 				}
+
+				// Load Elementor integration.
+				include_once AFGC_PLUGIN_DIR . 'elementor/class-afgc-elementor-integration.php';
 			}
 		}
 

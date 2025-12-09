@@ -1,0 +1,192 @@
+/**
+ * Elementor Widgets Styles
+ *
+ * @package Addify Gift Card
+ * @since 1.7.1
+ */
+
+/* Gift Cards Grid Widget */
+.afgc-gift-cards-grid {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.afgc-gift-cards-grid .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.afgc-gift-cards-grid .product {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.afgc-pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.afgc-pagination .page-numbers {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.afgc-pagination .page-numbers li {
+    margin: 0 5px;
+}
+
+.afgc-pagination .page-numbers a,
+.afgc-pagination .page-numbers span {
+    display: inline-block;
+    padding: 8px 15px;
+    background: #f5f5f5;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.afgc-pagination .page-numbers a:hover,
+.afgc-pagination .page-numbers .current {
+    background: #333;
+    color: #fff;
+}
+
+/* Single Gift Card Widget */
+.afgc-single-gift-card-widget {
+    width: 100%;
+}
+
+.afgc-single-product-image {
+    margin-bottom: 20px;
+}
+
+.afgc-single-product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.afgc-single-product-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.afgc-single-product-price {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.afgc-single-product-description {
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* Gift Card Gallery Widget */
+.afgc-gallery-widget {
+    width: 100%;
+}
+
+.afgc-gallery-category-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.afgc-gallery-category-title:first-child {
+    margin-top: 0;
+}
+
+.afgc-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.afgc-gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    aspect-ratio: 1 / 1;
+}
+
+.afgc-gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.afgc-gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.afgc-gallery-item a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.afgc-gallery-item a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.3s ease;
+}
+
+.afgc-gallery-item a:hover::after {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .afgc-gift-cards-grid .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .afgc-gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .afgc-gift-cards-grid .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .afgc-gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .afgc-single-product-title {
+        font-size: 20px;
+    }
+
+    .afgc-single-product-price {
+        font-size: 18px;
+    }
+
+    .afgc-gallery-category-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .afgc-gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
