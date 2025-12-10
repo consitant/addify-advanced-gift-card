@@ -331,18 +331,56 @@ do_action( 'gift_card_before_add_to_cart_form' );
 
 				<?php } ?>
 				<input type="hidden" name="final_selected_price_of_gift_card" value="<?php echo esc_attr( $gift_card_price ); ?>">
-
-				<!-- Auto-set delivery to Print at home (PDF) -->
-				<input type="hidden" name="afgc_pdf_tab" value="yes">
-
 				<div class="afgc-recipient-info" id="afgc-recipient-info">
 
 					<?php
 					// wp_nonce_field( 'addify_agf_nonce', 'afgc_nonce' );
 					?>
 
-					<?php if ( '' == $afgc_recipient_info_section_title ) { ?>
+					<?php if ( '' == $afgc_delivery_section_title ) { ?>
 
+						<h5><?php echo esc_html__( 'Delivery', 'addify_gift_cards' ); ?></h5>
+
+					<?php } else { ?>
+
+						<h5><?php echo esc_attr( $afgc_delivery_section_title ); ?></h5>
+
+					<?php } ?>
+					
+					<ul class="afgc_gift_card_opt">
+						<li>
+
+							<?php
+
+							$afgc_email_checkbox_is_required = 'yes' === get_option( 'afgc_email_checkbox_is_required' ) ? 'required' : '';
+
+							if ( '' == $afgc_email_checkbox_lable ) {
+								?>
+
+								<input type="checkbox" value="yes" name="afgc_email_tab" <?php echo esc_attr( $afgc_email_checkbox_is_required ); ?>><label><?php echo esc_html__( 'Email', 'addify_gift_cards' ); ?></label>
+
+							<?php } else { ?>
+
+								<input type="checkbox" value="yes" name="afgc_email_tab" <?php echo esc_attr( $afgc_email_checkbox_is_required ); ?>><label><?php echo esc_attr( $afgc_email_checkbox_lable ); ?></label>
+
+							<?php } ?>
+
+						</li>
+						<li>
+							<?php if ( '' == $afgc_print_home_checkbox_lable ) { ?>
+
+								<input type="checkbox" value="yes" name="afgc_pdf_tab"><label><?php echo esc_html__( 'Print at home', 'addify_gift_cards' ); ?></label>
+
+							<?php } else { ?>
+
+								<input type="checkbox" value="yes" name="afgc_pdf_tab"><label><?php echo esc_attr( $afgc_print_home_checkbox_lable ); ?></label>
+
+							<?php } ?>
+						</li>
+					</ul>
+
+					<?php if ( '' == $afgc_recipient_info_section_title ) { ?>
+								
 						<h5><?php echo esc_html__( 'Recipient Info', 'addify_gift_cards' ); ?></h5>
 
 					<?php } else { ?>
