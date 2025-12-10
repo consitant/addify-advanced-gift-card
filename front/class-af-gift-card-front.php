@@ -1092,7 +1092,7 @@ class Af_Gift_Card_Front {
 
 												}
 
-												if ( in_array( $current_user_email, $afgc_virtual_gift_recipient_email ) && in_array( $current_user_email, $restricted_emails ) ) {
+												if ( in_array( $current_user_email, $afgc_virtual_gift_recipient_email ) ) {
 
 													$valid_post_ids[]        = get_the_ID();
 													$afgc_net_amount        += $coupon_total_amount;
@@ -1196,8 +1196,8 @@ class Af_Gift_Card_Front {
 
 												}
 
-												
-												if ( ! in_array( $current_user_email, $afgc_virtual_gift_recipient_email ) || ! in_array( $current_user_email, $restricted_emails ) ) {
+	
+												if ( ! in_array( $current_user_email, $afgc_virtual_gift_recipient_email ) ) {
 
 													continue;
 												}

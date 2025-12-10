@@ -70,7 +70,7 @@ class Af_Gc_Coupon_Code {
 				'exclude_sale_items'          => false,
 				'minimum_amount'              => wc_format_decimal( '' ),
 				'maximum_amount'              => wc_format_decimal( '' ),
-				'email_restrictions'          => array_filter( array_map( 'trim', explode( ',', wc_clean( $user_email ) ) ) ),
+				'email_restrictions'          => array(), // No email restriction - coupon can be used by anyone
 			)
 		);
 
