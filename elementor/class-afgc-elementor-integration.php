@@ -153,15 +153,25 @@ class AFGC_Elementor_Integration {
 	 * @param object $widgets_manager Elementor widgets manager.
 	 */
 	public function register_widgets( $widgets_manager ) {
-		// Include widget files.
+		// Include widget files - Original widgets.
 		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-gift-cards-grid.php';
 		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-gift-card-single.php';
 		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-gallery.php';
 
-		// Register widgets.
+		// Include widget files - Single Product Page widgets (for Elementor Theme Builder).
+		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-product-form.php';
+		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-product-gallery.php';
+		require_once AFGC_PLUGIN_DIR . 'elementor/widgets/class-afgc-product-add-to-cart.php';
+
+		// Register original widgets.
 		$widgets_manager->register( new \AFGC_Elementor_Widget_Gift_Cards_Grid() );
 		$widgets_manager->register( new \AFGC_Elementor_Widget_Gift_Card_Single() );
 		$widgets_manager->register( new \AFGC_Elementor_Widget_Gallery() );
+
+		// Register Single Product Page widgets.
+		$widgets_manager->register( new \AFGC_Elementor_Widget_Product_Form() );
+		$widgets_manager->register( new \AFGC_Elementor_Widget_Product_Gallery() );
+		$widgets_manager->register( new \AFGC_Elementor_Widget_Product_Add_To_Cart() );
 	}
 
 	/**
@@ -187,6 +197,9 @@ class AFGC_Elementor_Integration {
 			AFGC_PLUGIN_VERSION,
 			true
 		);
+
+		// Enqueue the script on frontend
+		wp_enqueue_script( 'afgc-elementor-widgets' );
 	}
 }
 
